@@ -1,9 +1,7 @@
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 import { parseISO, format } from 'date-fns';
-
 import Container from '@/components/Container';
-import Subscribe from '@/components/Subscribe';
 import BlogSeo from '@/components/BlogSeo';
 
 

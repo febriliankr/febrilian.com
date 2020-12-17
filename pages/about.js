@@ -52,8 +52,7 @@ export default function About() {
         </h1>
         <div className="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
           <p>
-            Hey, I’m Febrilian. I'm a developer, medical student, and the
-            creator of&nbsp;
+            Hey, I’m Febrilian. I'm a developer, medical student. Currently building&nbsp;
             <a
               href="https://risetku.com"
               target="_blank"
@@ -72,16 +71,6 @@ export default function About() {
             &nbsp;Currently freelancing for fullstack projects, feel free to hit
             me up!
           </p>
-          <p>
-            I have worked with several organizations like BEM FKUI, TBM FKUI,{' '}
-            <a
-              href="https://doctorscarreerupdates.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Doctor's Career Updates
-            </a> and many others.
-          </p>
         </div>
         <h2 className="font-bold text-3xl tracking-tight mb-4 text-black dark:text-white">
           Freelance Projects
@@ -90,27 +79,21 @@ export default function About() {
           title="Doctor's Career Updates"
           link="https://www.doctorscareerupdates.com/"
         >
-          Biannual event by Departemen Pendidikan dan Profesi BEM IKM FKUI. Conferences and workshops about career for doctors.
+          Biannual event by Departemen Pendidikan dan Profesi BEM IKM FKUI.
+          Conferences and workshops about career for doctors.
         </Talk>
-        <Talk
-          title="One Data Makara"
-          link="/"
-        >
-          Internal data gathering system for Ikatan Keluarga Mahasiswa Fakultas Kedokteran Universitas Indonesia.
+        <Talk title="One Data Makara" link="/">
+          Internal data gathering system for Ikatan Keluarga Mahasiswa Fakultas
+          Kedokteran Universitas Indonesia.
         </Talk>
-        <Talk
-          title="Pemilihan Raya IKM FKUI 2020 Voting System"
-          link="/"
-        >
-          Building frictionless voting system. Set the record of most vote gathered for the last few years. Built as an integral part of One Data Makara.
+        <Talk title="Pemilihan Raya IKM FKUI 2020 Voting System" link="/">
+          Building frictionless voting system. Set the record of most vote
+          gathered for the last few years. Built as an integral part of One Data
+          Makara.
         </Talk>
-        <Talk
-          title="EFAST 2020"
-          link="https://www.efast2020.online"
-        >
+        <Talk title="EFAST 2020" link="https://www.efast2020.online">
           Building EFAST 2020 by TBM FKUI's website.
         </Talk>
-
         Building EFAST 2020 by TBM FKUI's website.
       </div>
     </Container>

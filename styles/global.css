@@ -126,6 +126,11 @@ input[type='email'] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  outline: none;
+}
+
+.toggle-button {
+  cursor: pointer;
 }
 
 .metric-card > a {
