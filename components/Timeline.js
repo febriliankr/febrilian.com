@@ -41,20 +41,29 @@ const Step = ({ title, children }) => {
 const FullTimeline = () => (
   <>
     <Divider />
-    <Year>2018</Year>
+    <Year>2017</Year>
     <ul>
-      <Step title="Started dsmtech.io 🤘🏻">
-        Reflecting on my recent job search, I realized there wasn't a
-        centralized listing of all the Des Moines tech companies. So...I created
-        it.
-      </Step>
-      <Step title="Joined Hy-Vee 🛒">
-        It was time for a change in my career, and Hy-Vee came calling. The best
-        part was reducing my commute time by an hour/day.
+      <Step title="Got in Faculty of Medicine, University of Indonesia">
+        First steps in the real world. Moved from my hometown to the capital to
+        pursue my medical education and training there.
       </Step>
     </ul>
     <Divider />
     <Year>2016</Year>
+    <ul>
+      <Step title="Still Doing Competitive Programming">
+        C++ for life
+      </Step>
+    </ul>
+    <Divider />
+    <Year>2015</Year>
+    <ul>
+      <Step title="One of My First Real Codes">
+        Got into competitive programming in highschool. Used C++ to solve problems Codeforces, Kattis, etc.
+      </Step>
+    </ul>
+    <Divider />
+    {/* <Year>2016</Year>
     <ul>
       <Step title="Graduated College 🎓">
         One of my most cherished accomplishments. I worked my ass off to get
@@ -138,8 +147,8 @@ const FullTimeline = () => (
         Pokémon cards. Sorry, mom.
       </Step>
     </ul>
-    <Divider />
-    <Year>1993</Year>
+    <Divider /> */}
+    <Year>1999</Year>
     <ul>
       <Step title="Born 👶🏼🍼" />
     </ul>
@@ -156,53 +165,22 @@ export default function Timeline() {
       </h3>
       <Year>2020</Year>
       <ul>
-        <Step title="Joined ▲Vercel">
-          I'm excited to help grow the Next.js community and continue building
-          the optimal workflow for front-end developers.
+        <Step title="Building Next Generation Risetku.com">
+          Excited to build the next generation of Risetku.com.
         </Step>
-        <Step title="Launched React 2025 💯">
-          Building a real SaaS application, from zero to production.
+        <Step title="Did A Lot of Freelance Projects">
+          Did multiple freelance projects with multiple organizations.
         </Step>
-        <Step title="Emerging Technology Leader of the Year 🏆">
-          I was extremely honored to be one of five finalists nominated for this
-          award at the 2020 Prometheus Awards.
+        <Step title="Biggest project yet">
+          Building One Data Makara for BEM IKM FKUI 2020. Won the project
+          through open tender.
         </Step>
-        <Step title="Got Married 🥳">
-          Great year for a wedding, huh? We had a small ceremony with family and
-          it was better than I could have imagined.
+        <Step title="Built my Web Development Agency, SitasiWorks">
+          Decided to make a company out of my web development passion and
+          projects.
         </Step>
-        <Step title="Became a Tech Lead 👨🏻‍💻">
-          Starting at the beginning of 2020, I moved into a tech leadership role
-          on an e-commerce development team at Hy-Vee.
-        </Step>
-        <Step title="Mastering Next.js made $10K 📈">
-          I taught hundreds of students from all over the world how to build web
-          applications. Exceeded my wildest expectations.
-        </Step>
-      </ul>
-      <Divider />
-      <Year>2019</Year>
-      <ul>
-        <Step title="Software Engineer III ✨">
-          Led design system architecture at Hy-Vee, building new components with
-          React, Storybook, and styled-components.
-        </Step>
-        <Step title="Mastering Next.js ⚛️">
-          Launched a 50+ lesson video course for building apps with Next.js and
-          React.
-        </Step>
-        <Step title="Bought a Townhome 🏡">
-          Who wants to do yardwork? Not me. Plus, Allie and I love living
-          downtown Des Moines.
-        </Step>
-        <Step title="Got Engaged 💍">
-          I asked my now fiancée, Allie, to marry me. She said yes! September
-          was a busy month, to say the least – I also spoke at three events and
-          sold my condo.
-        </Step>
-        <Step title="Spoke at Talent42 🎤">
-          I spoke to over 100 technical recruiting leaders from across the
-          country at Talent42 in Seattle during a 45-minute keynote.
+        <Step title="Got my first paid fullstack project.">
+          Building EFAST 2020 by TBM FKUI's website.
         </Step>
       </ul>
       {isShowingFullTimeline ? (

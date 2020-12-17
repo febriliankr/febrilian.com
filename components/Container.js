@@ -40,11 +40,6 @@ export default function Container({ children }) {
           )}
         </button>
         <div>
-          <NextLink href="/dashboard">
-            <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">
-              Dashboard
-            </a>
-          </NextLink>
           <NextLink href="/blog">
             <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Blog</a>
           </NextLink>

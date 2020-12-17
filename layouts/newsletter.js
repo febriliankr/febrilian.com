@@ -20,7 +20,7 @@ export default function NewsletterLayout({ children, frontMatter }) {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center w-full mt-2 mb-4">
           <div className="flex items-center">
             <Image
-              alt="Lee Robinson"
+              alt="Febrilian Kristiawan"
               height={24}
               width={24}
               src="/avatar.jpg"
@@ -28,7 +28,7 @@ export default function NewsletterLayout({ children, frontMatter }) {
             />
             <p className="text-sm text-gray-700 dark:text-gray-300 ml-2">
               {frontMatter.by}
-              {'Lee Robinson / '}
+              {'Febrilian Kristiawan / '}
               {format(parseISO(frontMatter.publishedAt), 'MMMM dd, yyyy')}
             </p>
           </div>

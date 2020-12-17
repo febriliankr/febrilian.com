@@ -1,11 +1,10 @@
 {
-  "name": "leerob.io",
+  "name": "febrilian.com",
   "description": "My personal website.",
   "version": "0.0.0",
   "author": {
-    "name": "Lee Robinson",
-    "email": "me@leerob.io",
-    "url": "https://leerob.io"
+    "name": "Febrilian Kristiawan",
+    "url": "https://febrilian.com"
   },
   "license": "MIT",
   "repository": {
