@@ -1,8 +1,9 @@
 import { useState } from 'react';
+import NextLink from 'next/link';
 
 const Divider = () => {
   return (
-    <div className="border border-gray-200 dark:border-gray-600 w-full my-8" />
+    <div className="border border-gray-50 dark:border-gray-800 w-full my-8" />
   );
 };
 
@@ -44,22 +45,24 @@ const FullTimeline = () => (
     <Year>2017</Year>
     <ul>
       <Step title="Got in Faculty of Medicine, University of Indonesia">
-        First steps in the real world. Moved from my hometown to the capital to
-        pursue my medical education and training there.
+        First steps in the real world. Moved to the capital to pursue my medical
+        education and training there.
+      </Step>
+      <Step title="Graduated High School">
+        Saying goodbye to free time and hometown buddies
       </Step>
     </ul>
     <Divider />
     <Year>2016</Year>
     <ul>
-      <Step title="Still Doing Competitive Programming">
-        C++ for life
-      </Step>
+      <Step title="Still Doing Competitive Programming">C++ for life</Step>
     </ul>
     <Divider />
     <Year>2015</Year>
     <ul>
       <Step title="One of My First Real Codes">
-        Got into competitive programming in highschool. Used C++ to solve problems Codeforces, Kattis, etc.
+        Got into competitive programming in highschool. Used C++ to solve
+        problems Codeforces, Kattis, etc.
       </Step>
     </ul>
     <Divider />
@@ -150,7 +153,7 @@ const FullTimeline = () => (
     <Divider /> */}
     <Year>1999</Year>
     <ul>
-      <Step title="Born 👶🏼🍼" />
+      <Step title="Signed in The Game" />
     </ul>
   </>
 );
@@ -161,7 +164,7 @@ export default function Timeline() {
   return (
     <>
       <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
-        Timeline
+        Timeline ⏳
       </h3>
       <Year>2020</Year>
       <ul>
@@ -176,19 +179,27 @@ export default function Timeline() {
           through open tender.
         </Step>
         <Step title="Built my Web Development Agency, SitasiWorks">
-          Decided to make a company out of my web development passion and
-          projects.
+          Created an agency to solve organization's problem in finding reliable
+          partner to work with them to build custom web-based systems.
         </Step>
         <Step title="Got my first paid fullstack project.">
           Building EFAST 2020 by TBM FKUI's website.
+        </Step>
+        <Step title={`Started "Yang Gue Pelajari Dari" Podcast`}>
+          A podcast series I made just to have fun talking with my friends.{' '}
+          <NextLink href="https://open.spotify.com/show/0AT8ZfLAs5aaE7c1kaM7hd">
+            <a className="font-semibold text-indigo-900 dark:text-indigo-400">
+              Listen here.
+            </a>
+          </NextLink>
         </Step>
       </ul>
       {isShowingFullTimeline ? (
         <FullTimeline />
       ) : (
-        <button
+        <div
           type="button"
-          className="flex items-center text-sm my-4 mx-auto px-4 py-2 rounded-md font-medium text-gray-900 dark:text-gray-100"
+          className="toggle-button flex items-center text-sm my-4 mx-auto px-4 py-2 rounded-md font-medium text-gray-900 hover:opacity-75 dark:text-gray-100"
           onClick={() => showFullTimeline(true)}
         >
           See More
@@ -206,7 +217,7 @@ export default function Timeline() {
               d="M19 9l-7 7-7-7"
             />
           </svg>
-        </button>
+        </div>
       )}
     </>
   );

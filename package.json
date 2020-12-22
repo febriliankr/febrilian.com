@@ -9,7 +9,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leerob/leerob.io.git"
+    "url": "git+https://github.com/febriliankr"
   },
   "scripts": {
     "build": "next build",

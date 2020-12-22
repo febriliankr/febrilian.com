@@ -24,9 +24,9 @@ const prettier = require('prettier');
                   .replace('.mdx', '');
                 const route = path === '/index' ? '' : path;
 
-                return `
+                return `  
                         <url>
-                            <loc>${`https://leerob.io${route}`}</loc>
+                            <loc>${`https://febrilian.com${route}`}</loc>
                         </url>
                     `;
               })

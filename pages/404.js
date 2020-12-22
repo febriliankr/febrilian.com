@@ -22,7 +22,7 @@ export default function NotFound() {
           Unavailable
         </p>
         <Link href="/">
-          <a className="p-1 sm:p-4 w-64 font-bold mx-auto bg-gray-100 dark:bg-gray-900 text-center rounded-md text-black dark:text-white">
+          <a className="p-1 sm:p-4 w-64 font-bold mx-auto bg-gray-100 dark:bg-gray-900 text-center rounded-md text-black dark:text-white hover:opacity-75">
             Return Home
           </a>
         </Link>

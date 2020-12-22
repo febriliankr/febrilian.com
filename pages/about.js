@@ -66,8 +66,8 @@ export default function About() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Cepat.co.
-            </a>
+              Cepat.co
+            </a>.
             &nbsp;Currently freelancing for fullstack projects, feel free to hit
             me up!
           </p>
