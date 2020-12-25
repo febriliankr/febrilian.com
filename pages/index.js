@@ -15,9 +15,9 @@ export default function Home() {
           className="rounded-full "
         />
         <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 mt-4 text-black dark:text-white">
-          Hi, it's Febrilian
+          Hi, it's Febrilian                                          
         </h1>
-        <h2 className="text-gray-600 text-xl dark:text-gray-400 mb-16">
+        <h2 className="text-gray-600 text-xl dark:text-gray-400 mb-16">                                            
           Developing & Shipping Great Stuffs
         </h2>
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 text-black dark:text-white">
