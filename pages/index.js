@@ -23,6 +23,7 @@ export default function Home() {
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 text-black dark:text-white">
           Featured Post 🎈
         </h3>
+        
         <BlogPost
           title="Idle Mind and Advertising"
           summary="There is nothing that I can buy to make me happy, only I can make myself happy."
