@@ -3,7 +3,7 @@ import NextLink from 'next/link';
 
 const Divider = () => {
   return (
-    <div className="border border-gray-50 dark:border-gray-800 w-full my-8" />
+    <div className="border border-gray-100 dark:border-gray-800 w-full my-8" />
   );
 };
 
@@ -42,6 +42,35 @@ const Step = ({ title, children }) => {
 const FullTimeline = () => (
   <>
     <Divider />
+    <Year>2020</Year>
+    <ul>
+      <Step title="Building Next Generation Risetku.com">
+        Excited to build the next generation of Risetku.com.
+      </Step>
+      <Step title="Did A Lot of Freelance Projects">
+        Did multiple freelance projects with multiple organizations.
+      </Step>
+      <Step title="Biggest project yet">
+        Building One Data Makara for BEM IKM FKUI 2020. Won the project through
+        open tender.
+      </Step>
+      <Step title="Built my Web Development Agency, SitasiWorks">
+        Created an agency to solve organization's problem in finding reliable
+        partner to work with them to build custom web-based systems.
+      </Step>
+      <Step title="Got my first paid fullstack project.">
+        Building EFAST 2020 by TBM FKUI's website.
+      </Step>
+      <Step title={`Started "Yang Gue Pelajari Dari" Podcast`}>
+        A podcast series I made just to have fun talking with my friends.{' '}
+        <NextLink href="https://open.spotify.com/show/0AT8ZfLAs5aaE7c1kaM7hd">
+          <a className="font-semibold text-blue-600 dark:text-blue-400">
+            Listen here.
+          </a>
+        </NextLink>
+      </Step>
+    </ul>
+    <Divider />
     <Year>2017</Year>
     <ul>
       <Step title="Got in Faculty of Medicine, University of Indonesia">
@@ -66,91 +95,7 @@ const FullTimeline = () => (
       </Step>
     </ul>
     <Divider />
-    {/* <Year>2016</Year>
-    <ul>
-      <Step title="Graduated College 🎓">
-        One of my most cherished accomplishments. I worked my ass off to get
-        this degree.
-      </Step>
-      <Step title="Family Roadtrip 🚗">
-        To celebrate graduating, my family and I did a road trip down the
-        Pacific Coast Highway in California. An unforgettable experience.
-      </Step>
-      <Step title="Full-Time at Workiva">
-        I was offered and accepted a full-time offer with Workiva, as well as
-        the opportunity to continue my internship until graduation.
-      </Step>
-      <Step title="Moved to Des Moines 🏙">
-        I moved Downtown DSM into a quaint 1BR apartment. Des Moines has always
-        felt like home growing up ~45 minutes away.
-      </Step>
-    </ul>
-    <Divider />
-    <Year>2015</Year>
-    <ul>
-      <Step title="Started at Workiva 🔥">
-        This internship meant a lot to me. Being able to work part-time while
-        still getting my school work done was huge.
-      </Step>
-      <Step title="Started Tutoring Programming">
-        Why not make a little extra money and sharpen my skills? I taught Python
-        to ISU Freshman.
-      </Step>
-      <Step title="Second Internship">
-        Spent the summer in (beautiful?) Cedar Rapids, IA working at Rockwell
-        Collins.
-      </Step>
-    </ul>
-    <Divider />
-    <Year>2014</Year>
-    <ul>
-      <Step title="Took a Semester Off">
-        I opted to stay at my internship full-time throughout the fall.
-      </Step>
-      <Step title="Landed First Internship">
-        Finally felt like I understood this whole programming thing. My
-        interviewing skills weren't great, but I managed to snag my first
-        internship.
-      </Step>
-    </ul>
-    <Divider />
-    <Year>2011</Year>
-    <ul>
-      <Step title="Graduated High School">
-        My hometown had about 1000 people, in total. My graduating class was 36.
-      </Step>
-      <Step title="Started at Iowa State University 🌪❤️">
-        I've been a die-hard Cyclone fan my whole life. It was a no-brainer that
-        I was going to ISU, especially since they have a great Engineering
-        program.
-      </Step>
-      <Step title="Learned How To Program">
-        CS 101. Our professor asked a simple question - "Who here has prior
-        programming experience?". About 80% of the class raised their hands. I
-        knew it was going to be an uphill battle from here.
-      </Step>
-      <Step title="Wanted To Dropout of College">
-        I didn't pick up programming right away. It didn't help we learned C to
-        start – I'm glad I stuck with it, though.
-      </Step>
-    </ul>
-    <Divider />
-    <Year>1998</Year>
-    <ul>
-      <Step title="First Computer">
-        I remember many nights playing Age of Empires, Lego Island, and
-        Runescape.
-      </Step>
-    </ul>
-    <Divider />
-    <Year>1997</Year>
-    <ul>
-      <Step title="Became a Pokémon Master">
-        Every time we'd go to Target, I would beg my mom to get a pack of
-        Pokémon cards. Sorry, mom.
-      </Step>
-    </ul>
-    <Divider /> */}
+
     <Year>1999</Year>
     <ul>
       <Step title="Signed in The Game" />
@@ -166,32 +111,67 @@ export default function Timeline() {
       <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
         Timeline ⏳
       </h3>
-      <Year>2020</Year>
+      <Year>2021</Year>
       <ul>
-        <Step title="Building Next Generation Risetku.com">
-          Excited to build the next generation of Risetku.com.
+        <Step title="Skala Group works in progress...">
+          Working with multiple enterprise clients.
         </Step>
-        <Step title="Did A Lot of Freelance Projects">
-          Did multiple freelance projects with multiple organizations.
+        <Step title="Built PT Skala Teknologi Nusantara 💪">
+          Officially registered the company as perseroan terbatas. Skala Group
+          in general will focus on enterprise projects, and Dorsian Software
+          Studio will take on small to medium sized projects.
         </Step>
-        <Step title="Biggest project yet">
-          Building One Data Makara for BEM IKM FKUI 2020. Won the project
-          through open tender.
+        <Step title="Dorsian Software Studio works in progress...">
+          Working with{' '}
+          <a
+            target="_blank"
+            href="https://pld-ui.com"
+            className="font-semibold text-blue-600 dark:text-blue-400"
+          >
+            PLD UI 2022/2023
+          </a>{' '}
+          and{' '}
+          <a
+            target="_blank"
+            href="https://tbmfkui.org"
+            className="font-semibold text-blue-600 dark:text-blue-400"
+          >
+            TBM FKUI
+          </a>
+          .
         </Step>
-        <Step title="Built my Web Development Agency, SitasiWorks">
-          Created an agency to solve organization's problem in finding reliable
-          partner to work with them to build custom web-based systems.
+        <Step title="Worked with clients, now as Dorsian Software Studio">
+          Built{' '}
+          <a
+            target="_blank"
+            href="https://suaramahasiswa.com"
+            className="font-semibold text-blue-600 dark:text-blue-400"
+          >
+            Suara Mahasiswa UI
+          </a>
+          ,{' '}
+          <a
+            target="_blank"
+            href="https://ligamedika.co"
+            className="font-semibold text-blue-600 dark:text-blue-400"
+          >
+            Liga Medika 2021
+          </a>
+          , and more.
         </Step>
-        <Step title="Got my first paid fullstack project.">
-          Building EFAST 2020 by TBM FKUI's website.
-        </Step>
-        <Step title={`Started "Yang Gue Pelajari Dari" Podcast`}>
-          A podcast series I made just to have fun talking with my friends.{' '}
-          <NextLink href="https://open.spotify.com/show/0AT8ZfLAs5aaE7c1kaM7hd">
-            <a className="font-semibold text-indigo-900 dark:text-indigo-400">
-              Listen here.
+        <Step title={`Building Cepat.co`}>
+          Decided to build{' '}
+          <NextLink href="https://cepat.co" target="_blank">
+            <a className="font-semibold text-blue-600 dark:text-blue-400">
+              Cepat.co
             </a>
-          </NextLink>
+          </NextLink>{' '}
+          in public. Talking to users and building what they want.
+        </Step>
+        <Step title="SitasiWorks is now Dorsian 🎉">
+          Continuing my web dev agency with a new name, Dorsian Software Studio.
+          Onboarding my first software engineer, and a PR team. Don't worry I
+          still code.
         </Step>
       </ul>
       {isShowingFullTimeline ? (

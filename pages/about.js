@@ -52,7 +52,8 @@ export default function About() {
         </h1>
         <div className="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
           <p>
-            Hey, I’m Febrilian. I'm a developer, medical student. Currently building&nbsp;
+            Hey, I’m Febrilian. I'm a developer, medical student. Currently
+            building&nbsp;
             <a
               href="https://risetku.com"
               target="_blank"
@@ -60,26 +61,39 @@ export default function About() {
             >
               Risetku
             </a>
-            &nbsp;and&nbsp;
+            ,&nbsp;
             <a
               href="https://cepat.co"
               target="_blank"
               rel="noopener noreferrer"
             >
               Cepat.co
-            </a>.
-            &nbsp;Currently freelancing for fullstack projects, feel free to hit
-            me up!
+            </a>
+            ,&nbsp;and running a web development agency, Dorsian. We aim to
+            solve client's design and fullstack projects, feel free to hit me
+            up!
           </p>
         </div>
         <h2 className="font-bold text-3xl tracking-tight mb-4 text-black dark:text-white">
-          Freelance Projects
+          Contact
         </h2>
+        <Talk title="Mail me" link="mailto:febrilian.kr@gmail.com" />
+
+        <h2 className="font-bold text-3xl tracking-tight mb-4 text-black dark:text-white">
+          Paid Projects
+        </h2>
+        <Talk title="Suara Mahasiswa UI" link="https://suaramahasiswa.com/">
+          Media organization by students of Universitas Indonesia.
+        </Talk>
+        <Talk title="Liga Medika FKUI" link="https://ligamedika.co/">
+          Annual event by students in FKUI. Sports, arts, and research
+          competitions and conferences for medical students around the world.
+        </Talk>
         <Talk
           title="Doctor's Career Updates"
           link="https://www.doctorscareerupdates.com/"
         >
-          Biannual event by Departemen Pendidikan dan Profesi BEM IKM FKUI.
+          Biennial event by Departemen Pendidikan dan Profesi BEM IKM FKUI.
           Conferences and workshops about career for doctors.
         </Talk>
         <Talk title="One Data Makara" link="/">
@@ -94,7 +108,18 @@ export default function About() {
         <Talk title="EFAST 2020" link="https://www.efast2020.online">
           Building EFAST 2020 by TBM FKUI's website.
         </Talk>
-        Building EFAST 2020 by TBM FKUI's website.
+        <h2 className="font-bold text-3xl tracking-tight mb-4 text-black dark:text-white">
+          Personal Projects
+        </h2>
+        <Talk title="Cepat Commerce (BETA)" link="https://cepat.co/">
+          Fastest e-commerce experience in Indonesia.
+        </Talk>
+        <h2 className="font-bold text-3xl tracking-tight mb-4 text-black dark:text-white">
+          Research Projects
+        </h2>
+        <Talk title="Risetku" link="https://risetku.com/">
+          Tool for health researchers.
+        </Talk>
       </div>
     </Container>
   );

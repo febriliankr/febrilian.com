@@ -46,10 +46,12 @@ export default function About() {
           title: 'About Me – Febrilian Kristiawan'
         }}
       />
-      <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
+      <div className="flex flex-col justify-center items-start max-w-4xl mx-auto mb-16">
         <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
         Live Concert
         </h1>
+<iframe width="951" height="535" src="https://www.youtube.com/embed/CsfpuvFuepM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+        <h1>Another Live Video</h1>
         <iframe width="951" height="535" src="https://www.youtube.com/embed/3VyxeWjp9-8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
       </div>
     </Container>
