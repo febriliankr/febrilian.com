@@ -2,10 +2,13 @@ const { spacing } = require('tailwindcss/defaultTheme');
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
-  purge: ['./pages/**/*.js', './components/**/*.js', './layouts/**/*.js'],
+  purge: ['./pages/**/*.tsx', './components/**/*.tsx', './layouts/**/*.tsx'],
   darkMode: 'class',
   theme: {
     extend: {
+      colors: {
+        'gray-1000': '#101010'
+      },
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans]
       },

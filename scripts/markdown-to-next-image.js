@@ -1,13 +1,13 @@
 const { promisify } = require('util');
 const { resolve } = require('path');
-const fs = require('fs');
+import fs from 'fs';
+import prettier from 'prettier';
 const readdir = promisify(fs.readdir);
 const stat = promisify(fs.stat);
 const unified = require('unified');
 const markdown = require('remark-parse');
 const md = require('remark-stringify');
 const frontmatter = require('remark-frontmatter');
-const prettier = require('prettier');
 
 const imgToJsx = require('./img-to-jsx');
 

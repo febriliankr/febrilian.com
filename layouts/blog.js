@@ -4,7 +4,6 @@ import { parseISO, format } from 'date-fns';
 import Container from '@/components/Container';
 import BlogSeo from '@/components/BlogSeo';
 
-
 export default function BlogLayout({ children, frontMatter }) {
   const router = useRouter();
   const slug = router.asPath.replace('/blog', '').split(/[?#]/)[0];
