@@ -14,7 +14,7 @@
   "resolved" "https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.12.7.tgz"
   "version" "7.12.7"
 
-"@babel/core@^7.11.1", "@babel/core@7.12.9":
+"@babel/core@^7.0.0", "@babel/core@^7.0.0-0", "@babel/core@^7.11.1", "@babel/core@^7.11.6", "@babel/core@7.12.9":
   "integrity" "sha512-gTXYh3M5wb7FRXQy+FErKFAv90BnlOuNn1QkCK2lREoPAjrQCO49+HVSrFoe5uakFAF5eenS75KbO2vQiLrTMQ=="
   "resolved" "https://registry.npmjs.org/@babel/core/-/core-7.12.9.tgz"
   "version" "7.12.9"
@@ -892,12 +892,12 @@
     "@firebase/util" "0.3.1"
     "tslib" "^1.11.1"
 
-"@firebase/app-types@0.6.1":
+"@firebase/app-types@0.6.1", "@firebase/app-types@0.x":
   "integrity" "sha512-L/ZnJRAq7F++utfuoTKX4CLBG5YR7tFO3PLzG1/oXXKEezJ0kRL3CMRoueBEmTCzVb/6SIs2Qlaw++uDgi5Xyg=="
   "resolved" "https://registry.npmjs.org/@firebase/app-types/-/app-types-0.6.1.tgz"
   "version" "0.6.1"
 
-"@firebase/app@0.6.10":
+"@firebase/app@0.6.10", "@firebase/app@0.x":
   "integrity" "sha512-USg/AbgqBERhY0LayrKmmp7pka08WPa7OlFI46kaNW1pA2mUNf/ifTaxhCr2hGg/eWI0zPhpbEvtGQhSJ/QqWg=="
   "resolved" "https://registry.npmjs.org/@firebase/app/-/app-0.6.10.tgz"
   "version" "0.6.10"
@@ -1087,7 +1087,7 @@
     "@firebase/util" "0.3.1"
     "tslib" "^1.11.1"
 
-"@firebase/util@0.3.1":
+"@firebase/util@0.3.1", "@firebase/util@0.x":
   "integrity" "sha512-zjVd9rfL08dRRdZILFn1RZTHb1euCcnD9N/9P56gdBcm2bvT5XsCC4G6t5toQBpE/H/jYe5h6MZMqfLu3EQLXw=="
   "resolved" "https://registry.npmjs.org/@firebase/util/-/util-0.3.1.tgz"
   "version" "0.3.1"
@@ -1241,7 +1241,7 @@
     "refractor" "^3.0.0"
     "unist-util-visit" "^2.0.2"
 
-"@mdx-js/loader@1.6.22":
+"@mdx-js/loader@>=0.15.0", "@mdx-js/loader@1.6.22":
   "integrity" "sha512-9CjGwy595NaxAYp0hF9B/A0lH6C8Rms97e2JS9d3jVUtILn6pT5i5IV965ra3lIWc7Rs1GG1tBdVF7dCowYe6Q=="
   "resolved" "https://registry.npmjs.org/@mdx-js/loader/-/loader-1.6.22.tgz"
   "version" "1.6.22"
@@ -1594,7 +1594,7 @@
   "resolved" "https://registry.npmjs.org/ast-types/-/ast-types-0.13.2.tgz"
   "version" "0.13.2"
 
-"autoprefixer@^10.0.4":
+"autoprefixer@^10.0.2", "autoprefixer@^10.0.4":
   "integrity" "sha512-0/lBNwN+ZUnb5su18NZo5MBIjDaq6boQKZcxwy86Gip/CmXA2zZqUoFQLCNAGI5P25ZWSP2RWdhDJ8osfKEjoQ=="
   "resolved" "https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.1.0.tgz"
   "version" "10.1.0"
@@ -3972,7 +3972,7 @@
   "resolved" "https://registry.npmjs.org/next-themes/-/next-themes-0.0.10.tgz"
   "version" "0.0.10"
 
-"next@^11.0.1":
+"next@^11.0.1", "next@^8.1.1-canary.54 || ^9.0.0 || ^10.0.0", "next@^9.5.5", "next@>= 9.3.6":
   "integrity" "sha512-yR7be7asNbvpVNpi6xxEg28wZ7Gqmj1nOt0sABH9qORmF3+pms2KZ7Cng33oK5nqPIzEEFJD0pp2PCe3/ueMIg=="
   "resolved" "https://registry.npmjs.org/next/-/next-11.0.1.tgz"
   "version" "11.0.1"
@@ -4376,7 +4376,7 @@
   "resolved" "https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-4.1.0.tgz"
   "version" "4.1.0"
 
-"postcss@^8.1.14", "postcss@^8.1.6", "postcss@^8.2.1", "postcss@8.2.13":
+"postcss@^8.0.0", "postcss@^8.0.9", "postcss@^8.1.0", "postcss@^8.1.13", "postcss@^8.1.14", "postcss@^8.1.6", "postcss@^8.2.1", "postcss@^8.2.2", "postcss@8.2.13":
   "integrity" "sha512-FCE5xLH+hjbzRdpbRb1IMCvPv9yZx2QnDarBEYSN0N0HYk+TcXsEhwdFcFb+SRWOKzKGErhIEbBK2ogyLdTtfQ=="
   "resolved" "https://registry.npmjs.org/postcss/-/postcss-8.2.13.tgz"
   "version" "8.2.13"
@@ -4582,7 +4582,7 @@
     "iconv-lite" "0.4.24"
     "unpipe" "1.0.0"
 
-"react-dom@^17.0.2":
+"react-dom@^16.0.0 || ^17.0.0", "react-dom@^16.13.1", "react-dom@^17.0.2", "react-dom@>=16.13.1 <17.0.1":
   "integrity" "sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
   "version" "17.0.2"
@@ -4611,7 +4611,7 @@
   "resolved" "https://registry.npmjs.org/react-tweet-embed/-/react-tweet-embed-1.2.2.tgz"
   "version" "1.2.2"
 
-"react@^17.0.2":
+"react@^16.0.0 || ^17.0.0", "react@^16.11.0 || ^17.0.0", "react@^16.13.1", "react@^16.13.1 || ^17.0.0", "react@^16.8.0 || ^17.0.0", "react@^17.0.2", "react@>= 16.8.0", "react@>=16.13.1 <17.0.1", "react@>0.14.0", "react@15.x.x || 16.x.x || 17.x.x", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
@@ -5246,7 +5246,7 @@
   "resolved" "https://registry.npmjs.org/stylis-rule-sheet/-/stylis-rule-sheet-0.0.10.tgz"
   "version" "0.0.10"
 
-"stylis@3.5.4":
+"stylis@^3.5.0", "stylis@3.5.4":
   "integrity" "sha512-8/3pSmthWM7lsPBKv7NXkzn2Uc9W7NotcwGNpJaa3k7WMM1XDCA4MgT5k/8BIexd5ydZdboXtU90XH9Ec4Bv/Q=="
   "resolved" "https://registry.npmjs.org/stylis/-/stylis-3.5.4.tgz"
   "version" "3.5.4"
@@ -5279,7 +5279,7 @@
   dependencies:
     "dequal" "2.0.2"
 
-"tailwindcss@^2.2.4":
+"tailwindcss@^2.2.4", "tailwindcss@2.0.0-alpha.24 || ^2.0.0":
   "integrity" "sha512-OdBCPgazNNsknSP+JfrPzkay9aqKjhKtFhbhgxHgvEFdHy/GuRPo2SCJ4w1SFTN8H6FPI4m6qD/Jj20NWY1GkA=="
   "resolved" "https://registry.npmjs.org/tailwindcss/-/tailwindcss-2.2.4.tgz"
   "version" "2.2.4"
